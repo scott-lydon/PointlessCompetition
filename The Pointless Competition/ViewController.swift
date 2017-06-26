@@ -25,6 +25,7 @@ class ViewController: UIViewController {
     @IBAction func btnPress(_ sender: Any) {
         scoreCount += 1
         score.text = "\(scoreCount)"
+        
     }
     
     

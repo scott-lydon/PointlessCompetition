@@ -15,6 +15,11 @@
 		750FE76B1EFA502C007C342C /* The_Pointless_CompetitionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750FE76A1EFA502C007C342C /* The_Pointless_CompetitionTests.swift */; };
 		750FE7761EFA502C007C342C /* The_Pointless_CompetitionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750FE7751EFA502C007C342C /* The_Pointless_CompetitionUITests.swift */; };
 		750FE7881EFA6FD6007C342C /* ScoreBoardTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750FE7871EFA6FD6007C342C /* ScoreBoardTVC.swift */; };
+		7536FA7E1F0076D900D9C114 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7536FA7D1F0076D900D9C114 /* SignInVC.swift */; };
+		7536FA811F00877E00D9C114 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7536FA801F00877E00D9C114 /* GoogleService-Info.plist */; };
+		C92EB4E98246E1A8C5BC7B4F /* Pods_The_Pointless_Competition.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE7D61F780C9A4F004CC5E9D /* Pods_The_Pointless_Competition.framework */; };
+		F1037B264C1B7C9DE892DCD4 /* Pods_The_Pointless_CompetitionTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69CEDDB6254670364F474791 /* Pods_The_Pointless_CompetitionTests.framework */; };
+		F75ADC9E9E0920F8829364B6 /* Pods_The_Pointless_CompetitionUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2A271BDD8842C99699F2F87 /* Pods_The_Pointless_CompetitionUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2AA34FCF7EBA07F93EAA89B2 /* Pods-The Pointless Competition.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The Pointless Competition.release.xcconfig"; path = "Pods/Target Support Files/Pods-The Pointless Competition/Pods-The Pointless Competition.release.xcconfig"; sourceTree = "<group>"; };
+		69CEDDB6254670364F474791 /* Pods_The_Pointless_CompetitionTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_The_Pointless_CompetitionTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D28F293EB2A24881C24ADE5 /* Pods-The Pointless CompetitionUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The Pointless CompetitionUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-The Pointless CompetitionUITests/Pods-The Pointless CompetitionUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		750FE7521EFA502C007C342C /* The Pointless Competition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Pointless Competition.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		750FE7551EFA502C007C342C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		750FE7571EFA502C007C342C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +57,15 @@
 		750FE7751EFA502C007C342C /* The_Pointless_CompetitionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Pointless_CompetitionUITests.swift; sourceTree = "<group>"; };
 		750FE7771EFA502C007C342C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		750FE7871EFA6FD6007C342C /* ScoreBoardTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScoreBoardTVC.swift; path = ../ScoreBoardTVC.swift; sourceTree = "<group>"; };
+		7536FA7D1F0076D900D9C114 /* SignInVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignInVC.swift; path = ../SignInVC.swift; sourceTree = "<group>"; };
+		7536FA7F1F007B2700D9C114 /* The Pointless Competition.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "The Pointless Competition.entitlements"; sourceTree = "<group>"; };
+		7536FA801F00877E00D9C114 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		80181F80AC1FC39EE835DB3C /* Pods-The Pointless CompetitionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The Pointless CompetitionTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-The Pointless CompetitionTests/Pods-The Pointless CompetitionTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A5A99AEE8A12B6CDF3FC5190 /* Pods-The Pointless Competition.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The Pointless Competition.debug.xcconfig"; path = "Pods/Target Support Files/Pods-The Pointless Competition/Pods-The Pointless Competition.debug.xcconfig"; sourceTree = "<group>"; };
+		D6AD20C20D2672D26D67D63B /* Pods-The Pointless CompetitionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The Pointless CompetitionTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-The Pointless CompetitionTests/Pods-The Pointless CompetitionTests.release.xcconfig"; sourceTree = "<group>"; };
+		DE7D61F780C9A4F004CC5E9D /* Pods_The_Pointless_Competition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_The_Pointless_Competition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1B718119BB32BCD2B90702B /* Pods-The Pointless CompetitionUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The Pointless CompetitionUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-The Pointless CompetitionUITests/Pods-The Pointless CompetitionUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F2A271BDD8842C99699F2F87 /* Pods_The_Pointless_CompetitionUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_The_Pointless_CompetitionUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C92EB4E98246E1A8C5BC7B4F /* Pods_The_Pointless_Competition.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1037B264C1B7C9DE892DCD4 /* Pods_The_Pointless_CompetitionTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F75ADC9E9E0920F8829364B6 /* Pods_The_Pointless_CompetitionUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +103,8 @@
 				750FE7691EFA502C007C342C /* The Pointless CompetitionTests */,
 				750FE7741EFA502C007C342C /* The Pointless CompetitionUITests */,
 				750FE7531EFA502C007C342C /* Products */,
+				A1AF20A0E84856EA6D8BA16F /* Pods */,
+				A2B44FE7B12CEAF2CCDFF79F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +121,8 @@
 		750FE7541EFA502C007C342C /* The Pointless Competition */ = {
 			isa = PBXGroup;
 			children = (
+				7536FA7F1F007B2700D9C114 /* The Pointless Competition.entitlements */,
+				7536FA7D1F0076D900D9C114 /* SignInVC.swift */,
 				750FE7551EFA502C007C342C /* AppDelegate.swift */,
 				750FE7871EFA6FD6007C342C /* ScoreBoardTVC.swift */,
 				750FE7571EFA502C007C342C /* ViewController.swift */,
@@ -106,6 +130,7 @@
 				750FE75C1EFA502C007C342C /* Assets.xcassets */,
 				750FE75E1EFA502C007C342C /* LaunchScreen.storyboard */,
 				750FE7611EFA502C007C342C /* Info.plist */,
+				7536FA801F00877E00D9C114 /* GoogleService-Info.plist */,
 			);
 			path = "The Pointless Competition";
 			sourceTree = "<group>";
@@ -128,6 +153,29 @@
 			path = "The Pointless CompetitionUITests";
 			sourceTree = "<group>";
 		};
+		A1AF20A0E84856EA6D8BA16F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A5A99AEE8A12B6CDF3FC5190 /* Pods-The Pointless Competition.debug.xcconfig */,
+				2AA34FCF7EBA07F93EAA89B2 /* Pods-The Pointless Competition.release.xcconfig */,
+				80181F80AC1FC39EE835DB3C /* Pods-The Pointless CompetitionTests.debug.xcconfig */,
+				D6AD20C20D2672D26D67D63B /* Pods-The Pointless CompetitionTests.release.xcconfig */,
+				6D28F293EB2A24881C24ADE5 /* Pods-The Pointless CompetitionUITests.debug.xcconfig */,
+				E1B718119BB32BCD2B90702B /* Pods-The Pointless CompetitionUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A2B44FE7B12CEAF2CCDFF79F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE7D61F780C9A4F004CC5E9D /* Pods_The_Pointless_Competition.framework */,
+				69CEDDB6254670364F474791 /* Pods_The_Pointless_CompetitionTests.framework */,
+				F2A271BDD8842C99699F2F87 /* Pods_The_Pointless_CompetitionUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +183,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 750FE77A1EFA502C007C342C /* Build configuration list for PBXNativeTarget "The Pointless Competition" */;
 			buildPhases = (
+				0F11B2E5CBA378EE6A90F06A /* [CP] Check Pods Manifest.lock */,
 				750FE74E1EFA502C007C342C /* Sources */,
 				750FE74F1EFA502C007C342C /* Frameworks */,
 				750FE7501EFA502C007C342C /* Resources */,
+				B8E5B593220D0CF7C30A4259 /* [CP] Embed Pods Frameworks */,
+				EE52B0743980D0F846029E91 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +203,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 750FE77D1EFA502C007C342C /* Build configuration list for PBXNativeTarget "The Pointless CompetitionTests" */;
 			buildPhases = (
+				E5CA3490009AC044D23A6E5D /* [CP] Check Pods Manifest.lock */,
 				750FE7621EFA502C007C342C /* Sources */,
 				750FE7631EFA502C007C342C /* Frameworks */,
 				750FE7641EFA502C007C342C /* Resources */,
+				10010CF2BFCA50F8C79C1D08 /* [CP] Embed Pods Frameworks */,
+				EC9EE6F8E91A3A6A7DE8F2F4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +224,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 750FE7801EFA502C007C342C /* Build configuration list for PBXNativeTarget "The Pointless CompetitionUITests" */;
 			buildPhases = (
+				6F10C6388FCEED7970F43C58 /* [CP] Check Pods Manifest.lock */,
 				750FE76D1EFA502C007C342C /* Sources */,
 				750FE76E1EFA502C007C342C /* Frameworks */,
 				750FE76F1EFA502C007C342C /* Resources */,
+				1A873F7FA65993C96293F34E /* [CP] Embed Pods Frameworks */,
+				62C3C620C7B4F1500D50C5EF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -198,6 +255,11 @@
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 8L7Z3WU967;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 					750FE7651EFA502C007C342C = {
 						CreatedOnToolsVersion = 8.3.3;
@@ -239,6 +301,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				750FE7601EFA502C007C342C /* LaunchScreen.storyboard in Resources */,
+				7536FA811F00877E00D9C114 /* GoogleService-Info.plist in Resources */,
 				750FE75D1EFA502C007C342C /* Assets.xcassets in Resources */,
 				750FE75B1EFA502C007C342C /* Main.storyboard in Resources */,
 			);
@@ -260,6 +323,144 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0F11B2E5CBA378EE6A90F06A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		10010CF2BFCA50F8C79C1D08 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-The Pointless CompetitionTests/Pods-The Pointless CompetitionTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1A873F7FA65993C96293F34E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-The Pointless CompetitionUITests/Pods-The Pointless CompetitionUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62C3C620C7B4F1500D50C5EF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-The Pointless CompetitionUITests/Pods-The Pointless CompetitionUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F10C6388FCEED7970F43C58 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B8E5B593220D0CF7C30A4259 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-The Pointless Competition/Pods-The Pointless Competition-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5CA3490009AC044D23A6E5D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EC9EE6F8E91A3A6A7DE8F2F4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-The Pointless CompetitionTests/Pods-The Pointless CompetitionTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE52B0743980D0F846029E91 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-The Pointless Competition/Pods-The Pointless Competition-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		750FE74E1EFA502C007C342C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -267,6 +468,7 @@
 			files = (
 				750FE7581EFA502C007C342C /* ViewController.swift in Sources */,
 				750FE7561EFA502C007C342C /* AppDelegate.swift in Sources */,
+				7536FA7E1F0076D900D9C114 /* SignInVC.swift in Sources */,
 				750FE7881EFA6FD6007C342C /* ScoreBoardTVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -419,8 +621,11 @@
 		};
 		750FE77B1EFA502C007C342C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5A99AEE8A12B6CDF3FC5190 /* Pods-The Pointless Competition.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "The Pointless Competition/The Pointless Competition.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 8L7Z3WU967;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -433,14 +638,18 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ScottAndTy.The-Pointless-Competition";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		750FE77C1EFA502C007C342C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AA34FCF7EBA07F93EAA89B2 /* Pods-The Pointless Competition.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "The Pointless Competition/The Pointless Competition.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 8L7Z3WU967;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -453,12 +662,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ScottAndTy.The-Pointless-Competition";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		750FE77E1EFA502C007C342C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80181F80AC1FC39EE835DB3C /* Pods-The Pointless CompetitionTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -474,6 +685,7 @@
 		};
 		750FE77F1EFA502C007C342C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6AD20C20D2672D26D67D63B /* Pods-The Pointless CompetitionTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -489,6 +701,7 @@
 		};
 		750FE7811EFA502C007C342C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D28F293EB2A24881C24ADE5 /* Pods-The Pointless CompetitionUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 8L7Z3WU967;
@@ -503,6 +716,7 @@
 		};
 		750FE7821EFA502C007C342C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1B718119BB32BCD2B90702B /* Pods-The Pointless CompetitionUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 8L7Z3WU967;
