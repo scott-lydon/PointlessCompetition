@@ -88,7 +88,7 @@ class SignInVC: UIViewController, FBSDKLoginButtonDelegate {
                 return
             }
             
-            print(result ?? "result was nil")
+            print("RESULT IS HERE: \(String(describing: result))" )
             
             let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
             let nextViewController = storyBoard.instantiateViewController(withIdentifier: "button") as! ViewController

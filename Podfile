@@ -22,5 +22,6 @@ pod 'FBSDKShareKit'
 pod 'FBSDKLoginKit'
 pod 'Firebase/Core'
 pod 'Firebase/Auth'
+pod 'Firebase/Database'
 
 end
