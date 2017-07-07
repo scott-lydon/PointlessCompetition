@@ -49,7 +49,8 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="ScoreBoard"/>
                                 <connections>
-                                    <segue destination="fY4-gm-SBf" kind="show" id="ChS-nW-PW7"/>
+                                    <action selector="scoreBoardPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Mq0-sm-Bzr"/>
+                                    <segue destination="fY4-gm-SBf" kind="show" identifier="segID" id="a6l-iW-tU5"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -73,29 +74,33 @@
         <scene sceneID="Szd-Av-aLl">
             <objects>
                 <tableViewController id="fY4-gm-SBf" customClass="ScoreBoardTVC" customModule="The_Pointless_Competition" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="1c1-bg-4Kw">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="1c1-bg-4Kw">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="jNe-g3-ywP">
-                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="jNe-g3-ywP" id="mjs-IK-HrR">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                </tableViewCellContentView>
-                            </tableViewCell>
-                        </prototypes>
+                        <sections>
+                            <tableViewSection id="tuh-lU-lj5">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cellID" rowHeight="66" id="vax-vG-EcM">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="66"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="vax-vG-EcM" id="Has-hB-Yao">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="65.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
                         <connections>
-                            <outlet property="dataSource" destination="fY4-gm-SBf" id="nYO-Tr-FTO"/>
-                            <outlet property="delegate" destination="fY4-gm-SBf" id="SH4-j2-0Qe"/>
+                            <outlet property="dataSource" destination="fY4-gm-SBf" id="7Jz-6u-8fl"/>
+                            <outlet property="delegate" destination="fY4-gm-SBf" id="53V-4E-oei"/>
                         </connections>
                     </tableView>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uZS-7G-1ry" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1606" y="122"/>
+            <point key="canvasLocation" x="1605.5999999999999" y="121.88905547226388"/>
         </scene>
         <!--Sign InVC-->
         <scene sceneID="z3T-sV-V9i">

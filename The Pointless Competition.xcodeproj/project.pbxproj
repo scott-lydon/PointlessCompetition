@@ -12,8 +12,6 @@
 		750FE75B1EFA502C007C342C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 750FE7591EFA502C007C342C /* Main.storyboard */; };
 		750FE75D1EFA502C007C342C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 750FE75C1EFA502C007C342C /* Assets.xcassets */; };
 		750FE7601EFA502C007C342C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 750FE75E1EFA502C007C342C /* LaunchScreen.storyboard */; };
-		750FE76B1EFA502C007C342C /* The_Pointless_CompetitionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750FE76A1EFA502C007C342C /* The_Pointless_CompetitionTests.swift */; };
-		750FE7761EFA502C007C342C /* The_Pointless_CompetitionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750FE7751EFA502C007C342C /* The_Pointless_CompetitionUITests.swift */; };
 		750FE7881EFA6FD6007C342C /* ScoreBoardTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750FE7871EFA6FD6007C342C /* ScoreBoardTVC.swift */; };
 		7536FA7E1F0076D900D9C114 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7536FA7D1F0076D900D9C114 /* SignInVC.swift */; };
 		7536FA811F00877E00D9C114 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7536FA801F00877E00D9C114 /* GoogleService-Info.plist */; };
@@ -51,11 +49,7 @@
 		750FE75F1EFA502C007C342C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		750FE7611EFA502C007C342C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		750FE7661EFA502C007C342C /* The Pointless CompetitionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Pointless CompetitionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		750FE76A1EFA502C007C342C /* The_Pointless_CompetitionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Pointless_CompetitionTests.swift; sourceTree = "<group>"; };
-		750FE76C1EFA502C007C342C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		750FE7711EFA502C007C342C /* The Pointless CompetitionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Pointless CompetitionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		750FE7751EFA502C007C342C /* The_Pointless_CompetitionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Pointless_CompetitionUITests.swift; sourceTree = "<group>"; };
-		750FE7771EFA502C007C342C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		750FE7871EFA6FD6007C342C /* ScoreBoardTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScoreBoardTVC.swift; path = ../ScoreBoardTVC.swift; sourceTree = "<group>"; };
 		7536FA7D1F0076D900D9C114 /* SignInVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignInVC.swift; path = ../SignInVC.swift; sourceTree = "<group>"; };
 		7536FA7F1F007B2700D9C114 /* The Pointless Competition.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "The Pointless Competition.entitlements"; sourceTree = "<group>"; };
@@ -100,8 +94,6 @@
 			isa = PBXGroup;
 			children = (
 				750FE7541EFA502C007C342C /* The Pointless Competition */,
-				750FE7691EFA502C007C342C /* The Pointless CompetitionTests */,
-				750FE7741EFA502C007C342C /* The Pointless CompetitionUITests */,
 				750FE7531EFA502C007C342C /* Products */,
 				A1AF20A0E84856EA6D8BA16F /* Pods */,
 				A2B44FE7B12CEAF2CCDFF79F /* Frameworks */,
@@ -121,36 +113,42 @@
 		750FE7541EFA502C007C342C /* The Pointless Competition */ = {
 			isa = PBXGroup;
 			children = (
+				755485A61F0F6ED5008EFE08 /* View */,
+				755485A51F0F6ECC008EFE08 /* Controller */,
+				755485A41F0F6EC1008EFE08 /* Model */,
 				7536FA7F1F007B2700D9C114 /* The Pointless Competition.entitlements */,
-				7536FA7D1F0076D900D9C114 /* SignInVC.swift */,
-				750FE7551EFA502C007C342C /* AppDelegate.swift */,
-				750FE7871EFA6FD6007C342C /* ScoreBoardTVC.swift */,
-				750FE7571EFA502C007C342C /* ViewController.swift */,
-				750FE7591EFA502C007C342C /* Main.storyboard */,
 				750FE75C1EFA502C007C342C /* Assets.xcassets */,
-				750FE75E1EFA502C007C342C /* LaunchScreen.storyboard */,
 				750FE7611EFA502C007C342C /* Info.plist */,
 				7536FA801F00877E00D9C114 /* GoogleService-Info.plist */,
 			);
 			path = "The Pointless Competition";
 			sourceTree = "<group>";
 		};
-		750FE7691EFA502C007C342C /* The Pointless CompetitionTests */ = {
+		755485A41F0F6EC1008EFE08 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				750FE76A1EFA502C007C342C /* The_Pointless_CompetitionTests.swift */,
-				750FE76C1EFA502C007C342C /* Info.plist */,
 			);
-			path = "The Pointless CompetitionTests";
+			name = Model;
 			sourceTree = "<group>";
 		};
-		750FE7741EFA502C007C342C /* The Pointless CompetitionUITests */ = {
+		755485A51F0F6ECC008EFE08 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				750FE7751EFA502C007C342C /* The_Pointless_CompetitionUITests.swift */,
-				750FE7771EFA502C007C342C /* Info.plist */,
+				750FE7871EFA6FD6007C342C /* ScoreBoardTVC.swift */,
+				7536FA7D1F0076D900D9C114 /* SignInVC.swift */,
+				750FE7571EFA502C007C342C /* ViewController.swift */,
+				750FE7551EFA502C007C342C /* AppDelegate.swift */,
 			);
-			path = "The Pointless CompetitionUITests";
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		755485A61F0F6ED5008EFE08 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				750FE75E1EFA502C007C342C /* LaunchScreen.storyboard */,
+				750FE7591EFA502C007C342C /* Main.storyboard */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 		A1AF20A0E84856EA6D8BA16F /* Pods */ = {
@@ -477,7 +475,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				750FE76B1EFA502C007C342C /* The_Pointless_CompetitionTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,7 +482,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				750FE7761EFA502C007C342C /* The_Pointless_CompetitionUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
